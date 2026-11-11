@@ -1,3 +1,5 @@
+@import url("/css/fonts.css");
+
 * {
   /* palette (catppuccin) */
   --rosewater: #f5e0dc;
@@ -44,6 +46,12 @@ body {
 
   min-width: 100vw;
   max-width: 100vw;
+
+  font-family: "BasicallyASansSerif", sans-serif;
+  font-feature-settings:
+    "ss01" 1,
+    "ss02" 1,
+    "ss03" 1;
 }
 
 .card {
